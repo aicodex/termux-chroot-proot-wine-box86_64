@@ -34,7 +34,9 @@ Note: "You NEED a 32-bit subsystem to run and build Box86.".
 
 Install some necessary packages:
 
-    apt install nano cabextract libfreetype6 libfreetype6:armhf libfontconfig libfontconfig:armhf libxext6 libxext6:armhf libxinerama-dev libxinerama-dev:armhf libxxf86vm1 libxxf86vm1:armhf libxrender1 libxrender1:armhf libxcomposite1 libxcomposite1:armhf libxrandr2 libxrandr2:armhf libxi6 libxi6:armhf libxcursor1 libxcursor1:armhf libvulkan-dev libvulkan-dev:armhf
+    apt install nano cabextract libfreetype6 libfontconfig libxext6 libxinerama-dev libxxf86vm1 libxrender1 libxcomposite1 libxrandr2 libxi6 libxcursor1 libvulkan-dev
+
+    apt install libfreetype6:armhf libfontconfig:armhf libxext6:armhf libxinerama-dev:armhf libxxf86vm1:armhf libxrender1:armhf libxcomposite1:armhf libxrandr2:armhf libxi6:armhf libxcursor1:armhf libvulkan-dev:armhf
 	
 If you already add armhf as arch, then you can install both Wine32 and Wine64 like below, [check here for latest version](https://github.com/Kron4ek/Wine-Builds/releases):
 
